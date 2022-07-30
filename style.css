@@ -41,6 +41,9 @@
     .questions{
         flex-direction: column-reverse;
     }
+    .moment{
+        flex-direction: column-reverse;
+    }
     
   }
 
