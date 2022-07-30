@@ -38,6 +38,9 @@
     .footer-part{
         flex-direction: column;
     }
+    .questions{
+        flex-direction: column-reverse;
+    }
     
   }
 
