@@ -4,6 +4,11 @@
 .banner-header{
     font-size: 60px;
 }
+.banner-btn{
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
 .footer-part{
     height: 350px;
     background-color: #0B0D17;
@@ -19,7 +24,17 @@
 ------------------------------------------ */
 
 @media only screen and (max-width: 576px) {
-    
+    .banner-header {
+        font-size: 14px;
+    }
+    .banner-text{
+        font-size: 10px;
+    }
+    .banner-btn{
+        font-size: 10px;
+        padding: 5px 10px;
+        margin-bottom: 0;
+    }
     .footer-part{
         flex-direction: column;
     }
@@ -31,5 +46,12 @@
 ------------------------------------------ */
 
   @media only screen and (min-width: 768px) and (max-width: 992px) {
-    
+    .banner-header {
+        font-size: 34px;
+    }
+    .banner-btn{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
   }
